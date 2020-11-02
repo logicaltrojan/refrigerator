@@ -9,7 +9,7 @@ spring.profiles.active=test
 @Profile("test") 
 @Configuration
 public class TestConfiguration {
-    @Bean
+    @Bea**n**
     public String hello(){
         return "test";
     }
